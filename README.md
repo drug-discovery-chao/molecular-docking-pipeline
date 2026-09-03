@@ -22,6 +22,15 @@ An automated molecular docking pipeline built with Python, designed for virtual 
 ├── scripts/ # Python automation scripts
 ├── results/ # Docking outputs and reports
 └── README.md
+## 🧬 mTOR Screening Module
+
+ChEMBL-based virtual screening pipeline:
+- `mtor_drug_screening.py` — RDKit descriptor computation + Lipinski/Veber filtering
+- `molecular_properties.csv` — Computed properties for mTOR inhibitors
+
+Filters applied:
+- Lipinski's Rule of Five (MW ≤ 500, LogP ≤ 5, HBD ≤ 5, HBA ≤ 10)
+- Veber's Rules (Rotatable Bonds ≤ 10, TPSA ≤ 140)
 ## 🚀 Quick Start
 
 ```bash
@@ -29,5 +38,6 @@ pip install -r requirements.txt
 python run_docking.py --protein target.pdb --ligands ligands.sdf
 📧 Contact
 For collaboration or freelance inquiries: 508454132@qq.com
+
 
 Note: This project is under active development. More features coming soon.
