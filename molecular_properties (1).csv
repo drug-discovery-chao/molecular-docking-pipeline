@@ -1,0 +1,6 @@
+Name,SMILES,MolecularWeight,LogP,HBD,HBA,RotatableBonds,TPSA
+Ibuprofen,CC(C)Cc1ccc(C(C)C(=O)O)cc1,206.28,3.07,1,1,4,37.3
+Aspirin,CC(=O)Oc1ccccc1C(=O)O,180.16,1.31,1,3,2,63.6
+Caffeine,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,194.19,-1.03,0,3,0,61.82
+Paracetamol,CC(=O)Nc1ccc(O)cc1,151.16,1.35,2,2,1,49.33
+Metformin,CN(C)C(=N)N=C(N)N,129.17,-1.24,3,1,0,91.49
